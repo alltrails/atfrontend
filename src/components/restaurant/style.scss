@@ -3,7 +3,8 @@
 .card {
   background: #fff;
   border-radius: .5em;
-  border: .03em solid $light-gray;
+  box-shadow: .02em .1em .1em .1em rgba(118, 118, 118, .1);
+  border: .2em solid $light-gray;
   color: $dark-gray;
   display: flex;
   font-size: .9em;
@@ -14,9 +15,13 @@
   margin: .5em;
   padding: .9em 1.4em;
 
+  &:hover {
+    border: .2em solid $green;
+  }
+
   img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     align-self: flex-start;
   }
 
