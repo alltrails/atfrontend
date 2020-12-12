@@ -47,9 +47,13 @@ nav {
     padding: .8em 1.4em;
   }
 
-  input {
+  input[type="text"] {
     font-weight: bold;
     width: 20em;
+  }
+
+  button[type="submit"] {
+    color: $green;
   }
 }
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.scss';
 import logo from './logo.svg';
+import { FaSearch } from 'react-icons/fa';
 
 // TODO: add magnifying glass icon on a button at the end of the search field if enough time at the end
 class Header extends Component {
@@ -49,7 +50,7 @@ class Header extends Component {
                 onChange={this.handleChange}
                 placeholder="Search for a restaurant"/>
             </label>
-            <input type="submit" value="Submit" />
+            <button type="submit"><FaSearch /></button>
           </form>
         </nav>
       </header>
