@@ -38,4 +38,12 @@ nav {
   flex-direction: row;
   flex-grow: 1;
   justify-content: space-between;
+
+  button {
+    background: #fff;
+    border-radius: 3px;
+    border: .03em solid $light-gray;
+    color: $medium-gray;
+    padding: 1em 1.4em;
+  }
 }
