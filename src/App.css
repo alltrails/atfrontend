@@ -1,4 +1,30 @@
+html,
+body {
+  background: #f3f6fb;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .App {
+  display: flex;
+  color: #767676;
+  flex-direction: column;
+  flex: 1 0 auto;
+  margin-top: 8.5em;
+  min-height: 100%;
+  padding: 2em;
+  width: 100%;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +61,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

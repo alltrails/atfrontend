@@ -1,0 +1,41 @@
+//move to global sass variables
+$light-gray: #e5e5e5;
+$medium-gray: #767676;
+
+header {
+  align-items: center;
+  background: #fff;
+  display: flex;
+  font-family: "Proxima Nova", "Arial", sans-serif; //I do not have access to Proxima Nova, it is not a google font, it would be too time consuming for this assignment
+  justify-content: space-between;
+  left: 0;
+  margin: auto;
+  max-height: 8.5em;
+  padding: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-decoration: none;
+
+  .logo {
+    flex-grow: 40;
+    text-decoration: none;
+    color: $light-gray;
+    font-size: 1.8em;
+    display: flex;
+
+
+    img {
+      width: 150px;
+      margin-right: .5em;
+    }
+  }
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+}
