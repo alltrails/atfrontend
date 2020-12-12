@@ -32,7 +32,30 @@
     margin: .2em .8em;
   }
 
-  .favorite {
+  .favorite, .stars {
     align-self: flex-start;
+    color: $light-gray;
+    font-size: 1.3em;
+
+    a,
+    a:visited,
+    a:active {
+      color: $light-gray;
+    }
+  }
+
+  .green {
+    color: $green;
+  }
+
+  .gold {
+    color: $gold;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
   }
 }
