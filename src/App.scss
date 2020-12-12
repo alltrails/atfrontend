@@ -19,7 +19,7 @@ body {
   color: $dark-gray;
   flex-direction: column;
   min-height: 100%;
-  padding-top: $navbar-size;
+  padding-top: $navbar-size-mobile;
   width: 100%;
 }
 
@@ -28,4 +28,27 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
+}
+
+//will toggle with button on mobile
+.map {
+  display: none;
+}
+
+.restaurantContainer {
+  display: flex;
+}
+
+@media screen and (min-device-width: 800px) {
+  .App {
+    padding-top: $navbar-size-desktop;
+  }
+
+  .map {
+    display: flex;
+  }
+
+  .restaurantContainer {
+    display: flex;
+  }
 }

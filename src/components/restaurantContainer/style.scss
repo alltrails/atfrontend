@@ -1,10 +1,15 @@
 @import '../../assets/variables';
 
 .restaurantContainer {
-  align-self: flex-start;
+  align-self: center;
   background: $medium-gray;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+}
+
+
+@media screen and (min-device-width: 800px) {
+  align-self: flex-start;
   min-width: 30em;
 }

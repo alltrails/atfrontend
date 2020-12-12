@@ -10,6 +10,9 @@ class RestaurantContainer extends Component {
         <Restaurant />
         <Restaurant />
         <Restaurant />
+        <Restaurant />
+        <Restaurant />
+        <Restaurant />
       </div>
     )
   }
