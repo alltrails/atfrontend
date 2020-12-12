@@ -1,1 +1,38 @@
 @import '../../assets/variables';
+
+.card {
+  background: #fff;
+  border-radius: .5em;
+  border: .03em solid $light-gray;
+  color: $dark-gray;
+  display: flex;
+  font-size: .9em;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 28em;
+  max-height: 8em;
+  margin: .5em;
+  padding: .9em 1.4em;
+
+  img {
+    width: 100px;
+    height: 100px;
+    align-self: flex-start;
+  }
+
+  .restaurantInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  h4,
+  p,
+  div {
+    margin: .2em .8em;
+  }
+
+  .favorite {
+    align-self: flex-start;
+  }
+}

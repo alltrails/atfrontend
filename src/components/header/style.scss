@@ -8,7 +8,7 @@ header {
   justify-content: space-between;
   left: 0;
   margin: auto;
-  max-height: 8.5em;
+  height: $navbar-size;
   padding: 1.5em;
   position: fixed;
   top: 0;
@@ -42,7 +42,7 @@ nav {
     background: #fff;
     border-radius: .5em;
     border: .03em solid $light-gray;
-    color: $medium-gray;
+    color: $dark-gray;
     padding: .8em 1.4em;
   }
 

@@ -1,1 +1,10 @@
 @import '../../assets/variables';
+
+.restaurantContainer {
+  align-self: flex-start;
+  background: $medium-gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 30em;
+}
