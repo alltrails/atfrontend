@@ -4,6 +4,8 @@ import { FaHeart, FaRegHeart, FaStar, FaRegStar } from 'react-icons/fa';
 
 // when selecting a heart switch to FaHeart and add class .green
 // when rendering the stars, switch to FaStar and add class .gold
+// or even better add the icons to the css
+
 class Restaurant extends Component {
   render() {
     return (
