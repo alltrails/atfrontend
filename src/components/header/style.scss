@@ -39,11 +39,17 @@ nav {
   flex-grow: 1;
   justify-content: space-between;
 
-  button {
+  button,
+  input {
     background: #fff;
-    border-radius: 3px;
+    border-radius: .5em;
     border: .03em solid $light-gray;
     color: $medium-gray;
-    padding: 1em 1.4em;
+    padding: .8em 1.4em;
+  }
+
+  input {
+    font-weight: bold;
+    width: 20em;
   }
 }
