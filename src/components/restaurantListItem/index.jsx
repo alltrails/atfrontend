@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import RestaurantComponent from "../../components/restaurantComponent";
 import "./style.scss";
-import { FaHeart, FaRegHeart, FaStar, FaRegStar } from "react-icons/fa";
 
 class RestaurantListItem extends Component {
   constructor(props) {

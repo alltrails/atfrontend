@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./style.scss";
-import { FaHeart, FaRegHeart, FaStar, FaRegStar } from "react-icons/fa";
+import { FaRegHeart, FaStar } from "react-icons/fa";
 
 class RestaurantComponent extends Component {
 
@@ -9,7 +9,7 @@ class RestaurantComponent extends Component {
 
     return (
       <div className="card">
-        <img src="https://4fi8v2446i0sw2rpq2a3fg51-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/About_PhotoBanners_344x361.jpg" />
+        <img src="https://4fi8v2446i0sw2rpq2a3fg51-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/About_PhotoBanners_344x361.jpg" alt="restaurant"/>
         <div className="restaurantInfo">
           <h4>{this.props.restaurant.json_result_object.name}</h4>
           <div className="rating">

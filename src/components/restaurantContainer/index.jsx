@@ -4,10 +4,6 @@ import RestaurantListItem from "../../components/restaurantListItem";
 import "./style.scss";
 
 class RestaurantContainer extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="restaurantContainer">

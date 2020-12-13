@@ -4,7 +4,7 @@ header {
   align-items: center;
   background: #fff;
   display: flex;
-  font-family: "Proxima Nova", "Arial", sans-serif; //I do not have access to Proxima Nova, it is not a google font, it would be too time consuming for this assignment
+  font-family: "Arial", sans-serif; //Add Proxima Nova, if enough time
   flex-wrap: wrap;
   justify-content: space-between;
   left: 0;
@@ -15,7 +15,7 @@ header {
   text-decoration: none;
 
   .logo {
-    flex-grow: 40;
+    flex-grow: 60;
     text-decoration: none;
     color: $light-gray;
     font-size: 1.8em;
@@ -34,7 +34,7 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  flex-grow: 3;
+  flex-grow: 1;
   justify-content: space-between;
   margin-top: 1em;
 

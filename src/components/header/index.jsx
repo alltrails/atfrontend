@@ -36,10 +36,12 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <a href="https://www.alltrails.com/" className="logo">
-          <img src={logo} alt="AllTrails logo" />
+        <div className="logo">
+          <a href="https://www.alltrails.com/">
+            <img src={logo} alt="AllTrails logo" />
+          </a>
           at Lunch
-        </a>
+        </div>
         <nav>
           <button>Filter</button>
           <form onSubmit={this.handleSubmit}>

@@ -18,7 +18,7 @@ body {
   display: flex;
   color: $dark-gray;
   flex-direction: column;
-  min-height: 100%;
+  height: 100%;
   width: 100%;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 // will toggle with button on mobile
-// I'm running out of time, I may not be able to get bak to make this work
+// I'm running out of time, I may not be able to get back to make this work
 .map {
   display: none;
 }

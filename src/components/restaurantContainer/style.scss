@@ -10,6 +10,10 @@
 
 
 @media screen and (min-device-width: 800px) {
-  align-self: flex-start;
-  min-width: 30em;
+  .restaurantContainer {
+    align-self: flex-start;
+    min-width: 20em;
+    max-height: 480px;
+    overflow-y: scroll;
+  }
 }
