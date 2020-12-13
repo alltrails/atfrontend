@@ -11,7 +11,7 @@ class RestaurantContainer extends Component {
     return (
       <div className="restaurantContainer">
         {this.props.restaurants.map(restaurant => (
-          <Restaurant key={restaurant.place_id} restaurant={restaurant} />
+          <Restaurant key={restaurant.place_id} restaurant={restaurant} setSelectedRestaurant={this.props.setSelectedRestaurant} />
         ))}
       </div>
     )

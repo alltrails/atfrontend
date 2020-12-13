@@ -6,6 +6,7 @@ import Map from './components/map';
 
 function App() {
   const [restaurants, setRestaurants] = useState([]);
+  const [selectedRestaurant, setSelectedRestaurant] = useState(null);
 
   useEffect(() => {
     fetch("http://localhost:3000/restaurants")
@@ -22,10 +23,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header setRestaurants={setRestaurants}/>
+      <Header setRestaurants={setRestaurants} />
       <div className="content">
-        <RestaurantContainer restaurants={restaurants}/>
-        <Map />
+        <RestaurantContainer restaurants={restaurants} setSelectedRestaurant={setSelectedRestaurant} />
+        <Map restaurants={restaurants} setSelectedRestaurant={setSelectedRestaurant} selectedRestaurant={selectedRestaurant}/>
       </div>
     </div>
   );
