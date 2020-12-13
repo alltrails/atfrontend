@@ -33,8 +33,10 @@ nav {
   align-items: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   flex-grow: 1;
   justify-content: space-between;
+  margin-top: 1em;
 
   button,
   input {
@@ -49,7 +51,7 @@ nav {
     border-radius: .5em 0 0 .5em;
     border-right: 0;
     font-weight: bold;
-    width: 20em;
+    width: 15em;
   }
 
   button[type="submit"] {
@@ -66,5 +68,12 @@ nav {
     .logo {
       justify-content: flex-start;
     }
+  }
+
+  input[type="text"] {
+    width: 20em;
+  }
+  nav {
+    margin-top: auto;
   }
 }

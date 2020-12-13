@@ -4,6 +4,7 @@
   background: #fff;
   border-radius: .5em;
   border: .15em solid $light-gray;
+  box-shadow: none;
   color: $dark-gray;
   display: flex;
   font-size: .9em;
@@ -13,7 +14,7 @@
   max-height: 8em;
   margin: .5em;
   padding: .9em 1.4em;
-  width: 100%;
+  width: 90%;
 
   &:hover,
   &:active {
@@ -75,5 +76,11 @@
 
   .restaurantInfo {
     font-size: .8em;
+  }
+}
+
+@media screen and (min-device-width: 800px) {
+  .restaurantListItem .card {
+    width: 100%;
   }
 }
