@@ -9,7 +9,7 @@ class Map extends Component {
       lat: 37.7749,
       lng: -122.4194,
     },
-    zoom: 11,
+    zoom: 12,
   };
 
   render() {
@@ -23,12 +23,14 @@ class Map extends Component {
       (rest) => rest.place_id === this.props.selectedRestaurant
     );
 
+    const REACT_APP_GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+
     return (
       <div className="map">
         <div style={{ height: "100%", width: "100%" }}>
           <GoogleMapReact
             bootstrapURLKeys={{
-              key: "AIzaSyDIKzjfQQCahwJ9yEr8gBU9TqJ3MvbPXyY",
+              key: REACT_APP_GOOGLE_API_KEY,
             }}
             defaultCenter={this.props.center}
             defaultZoom={this.props.zoom}
