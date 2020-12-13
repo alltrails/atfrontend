@@ -15,16 +15,16 @@ header {
   text-decoration: none;
 
   .logo {
-    flex-grow: 60;
-    text-decoration: none;
     color: $light-gray;
-    font-size: 1.8em;
     display: flex;
+    flex-grow: 60;
+    font-size: 1.8em;
     justify-content: center;
+    text-decoration: none;
 
     img {
-      width: 150px;
       margin-right: .5em;
+      width: 150px;
     }
   }
 }
@@ -41,8 +41,8 @@ nav {
   button,
   input {
     background: #fff;
-    border-radius: .5em;
     border: .03em solid $light-gray;
+    border-radius: .5em;
     color: $dark-gray;
     padding: .6em 1.3em;
   }

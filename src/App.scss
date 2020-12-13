@@ -4,8 +4,8 @@ html,
 body {
   background: #f3f6fb;
   height: 100%;
-  width: 100%;
   margin: 0;
+  width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,8 +15,8 @@ body {
 }
 
 .App {
-  display: flex;
   color: $dark-gray;
+  display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
@@ -40,10 +40,6 @@ body {
 // will toggle with button on mobile
 // I'm running out of time, I may not be able to get back to make this work
 .map {
-  display: none;
-}
-
-.restaurantContainer {
   display: none;
 }
 

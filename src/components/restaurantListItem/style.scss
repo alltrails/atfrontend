@@ -1,18 +1,21 @@
 @import '../../assets/variables';
 
 .restaurantListItem .card {
+  align-items: center;
   background: #fff;
   border-radius: .5em;
   border: .15em solid $light-gray;
   box-shadow: none;
   color: $dark-gray;
   display: flex;
-  font-size: .9em;
   flex-direction: row;
   flex-wrap: nowrap;
-  max-width: 28em;
-  max-height: 8em;
+  font-size: .9em;
+  justify-content: center;
   margin: .5em;
+  max-height: 8em;
+  max-width: 28em;
+  overflow: hidden;
   padding: .6em 1em;
 
   &:hover,
@@ -21,9 +24,8 @@
   }
 
   img {
-    align-self: flex-start;
     margin: auto;
-    max-width: 80px;
+    width: 120px;
   }
 
   .restaurantInfo {
