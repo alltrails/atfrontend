@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './style.scss';
-import { FaHeart, FaRegHeart, FaStar, FaRegStar } from 'react-icons/fa';
+import React, { Component } from "react";
+import "./style.scss";
+import { FaHeart, FaRegHeart, FaStar, FaRegStar } from "react-icons/fa";
 
 class RestaurantCard extends Component {
   render() {
@@ -17,8 +17,12 @@ class RestaurantCard extends Component {
               <FaRegStar />
               <FaRegStar />
             </span>
-            <span className="votes">(123)</span></p>
-          <p><span className="dollars">$$</span> &#183; <span className="notes">Supporting text</span></p>
+            <span className="votes">(123)</span>
+          </p>
+          <p>
+            <span className="dollars">$$</span> &#183;{" "}
+            <span className="notes">Supporting text</span>
+          </p>
         </div>
         <div className="favorite">
           <a href="#">
@@ -26,8 +30,8 @@ class RestaurantCard extends Component {
           </a>
         </div>
       </div>
-    )
+    );
   }
-};
+}
 
 export default RestaurantCard;
