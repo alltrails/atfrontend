@@ -34,7 +34,7 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  flex-grow: 1;
+  flex-grow: 3;
   justify-content: space-between;
   margin-top: 1em;
 
@@ -44,19 +44,15 @@ nav {
     border-radius: .5em;
     border: .03em solid $light-gray;
     color: $dark-gray;
-    padding: .8em 1.4em;
+    padding: .6em 1.3em;
   }
 
-  input[type="text"] {
-    border-radius: .5em 0 0 .5em;
-    border-right: 0;
+  input[type="search"] {
     font-weight: bold;
     width: 15em;
   }
 
   button[type="submit"] {
-    border-left: 0;
-    border-radius: 0 .5em .5em 0;
     color: $green;
   }
 }
@@ -73,6 +69,7 @@ nav {
   input[type="text"] {
     width: 20em;
   }
+
   nav {
     margin-top: auto;
   }

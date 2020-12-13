@@ -45,7 +45,7 @@ class Header extends Component {
           <form onSubmit={this.handleSubmit}>
             <label>
               <input
-                type="text"
+                type="search"
                 value={this.state.value}
                 onChange={this.handleChange}
                 placeholder="Search for a restaurant"

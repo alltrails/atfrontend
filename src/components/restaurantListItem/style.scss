@@ -13,7 +13,7 @@
   max-width: 28em;
   max-height: 8em;
   margin: .5em;
-  padding: .9em 1.4em;
+  padding: .6em 1em;
   width: 90%;
 
   &:hover,
@@ -47,10 +47,10 @@
     margin: .2em .8em;
   }
 
-  .favorite, .stars {
-    align-self: flex-start;
+  .favorite {
     color: $light-gray;
     font-size: 1.3em;
+    margin: 0;
 
     a,
     a:visited,
@@ -59,28 +59,18 @@
     }
   }
 
-  .green {
-    color: $green;
-  }
-
-  .gold {
-    color: $gold;
-  }
-
-  .rating {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
-  }
-
   .restaurantInfo {
     font-size: .8em;
+  }
+
+  .stars {
+    color: $gold;
+    font-size: 1.3em;
   }
 }
 
 @media screen and (min-device-width: 800px) {
   .restaurantListItem .card {
-    width: 100%;
+    width: auto;
   }
 }

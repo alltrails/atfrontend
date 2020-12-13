@@ -2,9 +2,6 @@
 
 .marker {
   color: $dark-gray;
-  font-size: 1.8em;
-}
-
-.green {
-  color: $green;
+  -webkit-filter: drop-shadow(.1em .2em .2em rgba(0, 0, 0, .7));
+  filter: drop-shadow(.1em .2em .2em rgba(0, 0, 0, .7));
 }

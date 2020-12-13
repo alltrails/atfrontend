@@ -12,13 +12,13 @@ class RestaurantComponent extends Component {
         <img src="https://4fi8v2446i0sw2rpq2a3fg51-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/About_PhotoBanners_344x361.jpg" />
         <div className="restaurantInfo">
           <h4>{this.props.restaurant.json_result_object.name}</h4>
-          <p className="rating">
+          <div className="rating">
             <span className="stars gold">
               {this.props.restaurant.json_result_object.rating}
               <FaStar />
             </span>
             <span className="votes">({this.props.restaurant.json_result_object.user_ratings_total})</span>
-          </p>
+          </div>
           <p>
             <span className="dollars">{dollarSigns}</span>
             &#183;

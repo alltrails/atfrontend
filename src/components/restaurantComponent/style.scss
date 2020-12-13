@@ -6,12 +6,12 @@
   border: .1 solid $light-gray;
   box-shadow: .2em .4em .4em .2em rgba(118, 118, 118, .7);
   color: $dark-gray;
-  font-size: .5em;
+  font-size: 1em;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: 20em;
-  padding: 1em;
+  width: 25em;
+  padding: .4em;
 
   img {
     max-width: 80px;
@@ -20,7 +20,7 @@
   }
 
   .favorite {
-    align-self: flex-start;
+    margin: .6em 1em 0 0;
     color: $light-gray;
 
     a,
@@ -32,5 +32,12 @@
 
   .stars {
     color: $gold;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 }
