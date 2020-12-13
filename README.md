@@ -1,5 +1,20 @@
-TMP instructions: Clone the repo, run `npm install` and `npm run`
+# Front end app for AllTrails at Lunch
+Please refer to the Rails backend app to run this app.
+
+### Rails backend repo
+https://github.com/electricjug/atbackend
+
+### Screenshots
+![desktop](http://www.tuskerette.com/projects/atscreenshots/pizza-desktop.png)
+![desktop-selected](http://www.tuskerette.com/projects/atscreenshots/pizza-selected-desktop.png)
+![mobile](http://www.tuskerette.com/projects/atscreenshots/pizza-mobile.png)
+
+
+### Temp dev instructions
+Clone the repo, run `npm install` and `npm run`
 it runs on http://localhost:3001
 
-At the end it will be part of the backend rails all that can be found at https://github.com/electricjug/atbackend
-and will be served from the backend.
+
+### Libraries
+this app uses:
+https://github.com/google-map-react/google-map-react
