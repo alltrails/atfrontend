@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Restaurant from "../../components/restaurant";
+import RestaurantListItem from "../../components/restaurantListItem";
 import "./style.scss";
 
 class RestaurantContainer extends Component {
@@ -12,7 +12,7 @@ class RestaurantContainer extends Component {
     return (
       <div className="restaurantContainer">
         {this.props.restaurants.map((restaurant) => (
-          <Restaurant
+          <RestaurantListItem
             key={restaurant.place_id}
             restaurant={restaurant}
             setSelectedRestaurant={this.props.setSelectedRestaurant}

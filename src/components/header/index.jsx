@@ -3,7 +3,6 @@ import "./style.scss";
 import logo from "./logo.svg";
 import { FaSearch } from "react-icons/fa";
 
-// TODO: add magnifying glass icon on a button at the end of the search field if enough time at the end
 class Header extends Component {
   constructor(props) {
     super(props);

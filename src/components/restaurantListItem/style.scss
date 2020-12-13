@@ -1,10 +1,10 @@
 @import '../../assets/variables';
 
-.card {
+.restaurantListItem .card {
   background: #fff;
   border-radius: .5em;
-  box-shadow: .02em .1em .1em .1em rgba(118, 118, 118, .1);
-  border: .2em solid $light-gray;
+  // box-shadow: .02em .01em .01em .1em rgba(118, 118, 118, .1);
+  border: .15em solid $light-gray;
   color: $dark-gray;
   display: flex;
   font-size: .9em;
@@ -15,8 +15,9 @@
   margin: .5em;
   padding: .9em 1.4em;
 
-  &:hover {
-    border: .2em solid $green;
+  &:hover,
+  &:active {
+    border: .15em solid $green;
   }
 
   img {
@@ -29,6 +30,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    .dollars {
+      padding-right: .5em;
+    }
+
+    .notes {
+      padding-left: .5em;
+    }
   }
 
   h4,
@@ -62,5 +71,9 @@
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+  }
+
+  .restaurantInfo {
+    font-size: .8em;
   }
 }

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import RestaurantCard from "../../components/restaurantCard";
+import RestaurantComponent from "../../components/restaurantComponent";
 import "./style.scss";
 import { FaHeart, FaRegHeart, FaStar, FaRegStar } from "react-icons/fa";
 
-class Restaurant extends Component {
+class RestaurantListItem extends Component {
   constructor(props) {
     super(props);
     this.state = { value: "" };
@@ -18,11 +18,11 @@ class Restaurant extends Component {
 
   render() {
     return (
-      <div onClick={this.handleClick}>
-        <RestaurantCard restaurant={this.props.restaurant} />
+      <div className="restaurantListItem" onClick={this.handleClick}>
+        <RestaurantComponent restaurant={this.props.restaurant} />
       </div>
     );
   }
 }
 
-export default Restaurant;
+export default RestaurantListItem;

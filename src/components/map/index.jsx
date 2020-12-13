@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
-import RestaurantCard from "../../components/restaurantCard";
+import RestaurantComponent from "../../components/restaurantComponent";
 import ShowMarkerComponent from "../../components/showMarkerComponent";
 import "./style.scss";
 import { FaMapMarker } from "react-icons/fa";

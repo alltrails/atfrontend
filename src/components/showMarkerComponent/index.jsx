@@ -1,4 +1,4 @@
-import RestaurantCard from "../../components/restaurantCard";
+import RestaurantComponent from "../../components/restaurantComponent";
 import { FaMapMarker } from "react-icons/fa";
 import "./style.scss";
 
@@ -13,7 +13,7 @@ const ShowMarkerComponent = ({
   return isHighlighted ? (
     <div className="marker green">
       <FaMapMarker />
-      <RestaurantCard key={restaurant.place_id} restaurant={restaurant} />
+      <RestaurantComponent key={restaurant.place_id} restaurant={restaurant} />
     </div>
   ) : (
     <div className="marker" onClick={handleClick}>
