@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+// import { render, screen } from '@testing-library/react';
+// import App from './App';
+// // import { shallow } from 'enzyme';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('basic page', () => {
+//   render(<App />);
+//   // fill out input field, hit enter,
+//   // expect page to have map and have list
+
+//   const input = screen.getByPlaceholderText('Search for a restaurant')
+//   input.simulate('change', { target: { value: 'Pizza' } })
+
+// });

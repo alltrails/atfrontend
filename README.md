@@ -11,7 +11,7 @@ https://github.com/electricjug/atbackend
 
 
 ### Temp dev instructions
-Clone the repo, run `npm install` and `npm run`
+Clone the repo, run `yarn install` and `npm run`
 it runs on http://localhost:3001
 
 
